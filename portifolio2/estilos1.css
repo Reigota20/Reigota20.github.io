@@ -1,0 +1,183 @@
+body{
+    background-color:#e1f5fe ;
+     font-family: 'Roboto', sans-serif; 
+}
+header{
+    background-color: black;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+
+nav a{
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 48px;
+}
+li{
+    display: inline;
+    
+}
+
+#banner{
+    background-color:#e1f5fe;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 96px 0px;
+}
+
+#banner h1{
+    font-size: 48px;   
+    font-weight: bolder; 
+    margin-bottom: 24px;
+}
+
+#banner span{
+    color: #e1f5fe;
+}
+
+#banner p{
+    margin-bottom: 16px;
+    line-height: 24px;
+  
+}
+
+
+#sobreMim{
+    background-color: #fafafa;
+    padding: 64px 32px;
+}
+
+#foto img{
+    border: 5px solid #000;
+    box-shadow: 0px 0px 10px 5px #999;
+}
+
+#sobreMim h2{
+    color:black;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+#foto{
+    float: left;
+    margin-right: 48px;
+}
+
+.tituloVerde{
+    font-size: 36px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#conhecimentos, #portfolio{
+    padding: 64px 32px;
+    background-color: #fff;
+}
+
+
+#conhecimentos h3{
+    color:black;
+    font-weight: 20px;
+}
+
+ #contato{
+    background-color:  #e1f5fe;
+    padding: 64px 32px;
+    height: auto;
+    overflow: hidden;
+}
+
+.tituloBranco{
+    font-size: 36px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder; 
+    margin-bottom: 24px;
+}
+
+.textoBranco{
+    color: black;
+    line-height: 24px;
+    text-align: justify;
+}
+
+
+
+#contato div{
+    box-sizing: border-box;
+    margin-top: 0px;
+    
+}
+
+
+#formulario{
+    background-color: black;
+    color: white;
+    padding: 24px;
+    text-align: left;
+}
+
+input, textarea{
+    margin-top: 16px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px black solid;
+    padding: 20px 0px;
+    color: #555;
+}
+
+#btn-enviar{
+    background-color:#FFF;
+    color: black;
+    width: auto;
+    padding: 20px;
+    border: 1px solid #42928f;
+}
+#btn-limpar{
+    background-color:#FFF;
+    color: black;
+    width: auto;
+    padding: 20px;
+    border: 1px solid #42928f;
+}
+
+#btn-enviar:hover{
+    background-color:#1e88e5 ;
+    color: black;
+}
+
+footer{
+    padding: 32px;
+    color: blue;
+    text-align: center;
+}
+div.ferramentas_texto a{
+	padding: 4px;
+	border: 1px solid #666;
+	font-size: 11px;
+	font-weight: bold;
+	margin-right: 7px;
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: right;
+	background: #fff;
+}
+div.ferramentas_texto a:hover{
+	background: #666;
+	border-color: #222;
+	color: #fff;
+	cursor: pointer;
+}
+reduz_fonte p{
+    font-size: 11px;
+}
+aumenta_fonte p{
+    font-size: 17px;
+}
